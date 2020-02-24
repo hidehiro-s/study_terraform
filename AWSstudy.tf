@@ -1,10 +1,10 @@
 # AWS学習用
 # provider
-#provider "aws" {
-    #access_key = "ccess_key"
-    #secret_key = "secret_key"
-    #region = "ap-northeast-1"
-#}
+ #provider "aws" {
+     #access_key = "access_key"
+     #secret_key = "secret_key"
+     #region = "ap-northeast-1"
+ #}
 
 # VPC
 resource "aws_vpc" "vpc" {
